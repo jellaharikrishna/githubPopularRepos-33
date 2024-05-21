@@ -1,0 +1,50 @@
+.app-container {
+  height: 100vh;
+  padding: 20px;
+  overflow: auto;
+}
+.popular-heading {
+  color: #0f172a;
+  font-family: lobster;
+  text-align: center;
+}
+.language-filters-data-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.repository-data-list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+}
+.failure-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-img {
+  width: 50%;
+}
+.failure-heading {
+  color: #0f172a;
+  font-family: bree serif;
+}
+@media (min-width: 768px) {
+  .popular-heading {
+    font-size: 58px;
+  }
+  .failure-heading {
+    font-size: 38px;
+  }
+}
